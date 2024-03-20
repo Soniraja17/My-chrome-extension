@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    color: #ffffff; /* White text color */
+}
+
+body {
+    width: max-content;
+    max-width: 800px;
+    background-color: #0d0d0e; /* Dark grey background color */
+    color: #ffffff; /* White text color */
+    font-family: Arial, sans-serif; /* Use a common sans-serif font */
+}
+
+button {
+    background-color: #6c7175; /* Darker grey background color */
+    color: #ffffff; /* White text color */
+    border-radius: 8px;
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    font-size: large;
+    margin: auto;
+    display: block;
+    border-color: #ffffff; /* White border color */
+}
+
+button[disabled] {
+    background-color: #7f8c8d; /* Light grey background color */
+    color: #ffffff; /* White text color */
+    border-color: #bdc3c7; /* Light grey border color */
+}
+
+p {
+    font-size: medium;
+    color: #ecf0f1; /* Light grey text color */
+}
